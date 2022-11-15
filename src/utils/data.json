@@ -1,0 +1,44 @@
+{
+    "venues": [
+        {
+            "name": "Çankaya Köşkü",
+            "image": "ts.svg",
+            "geometry": [
+                39.891132,
+                32.863182
+            ]
+        },
+        {
+            "name": "kızılay",
+            "image": "venue_location_icon.svg",
+            "geometry": [
+                39.920860,
+                32.854240
+            ]
+        },
+        {
+            "name": "keçiören şelale",
+            "image": "venue_location_icon.svg",
+            "geometry": [
+                39.977982,
+                32.866909
+            ]
+        },
+        {
+            "name": "Sıhhıye",
+            "image": "venue_location_icon.svg",
+            "geometry": [
+                39.928318,
+                32.854652
+            ]
+        },
+        {
+            "name": "Atatürk Orman Çiftliği ",
+            "image": "postgresql-icon.svg",
+            "geometry": [
+                39.932373,
+                32.809860
+            ]
+        }
+    ]
+}
