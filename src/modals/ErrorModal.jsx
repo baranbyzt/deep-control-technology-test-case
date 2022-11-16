@@ -25,7 +25,7 @@ const ErrorModal = ({ password, email }) => {
       </div>
       <div className={style.error_message_wrapper}>
         <p>{password ? null : "password must be between 4 and 40"}</p>
-        <p>{email ? null : "email must be invalid"}</p>
+        <p>{email ? null : "email must be valid"}</p>
       </div>
     </div>,
     document.getElementById("error-modal-root")

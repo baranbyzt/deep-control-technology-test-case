@@ -18,3 +18,19 @@ export const VenueMarkers = (props) => {
 
   return <>{markers}</>;
 };
+
+export const VenueMarkerSlice = (props) => {
+  const { venues } = props;
+
+  const markers = venues.slice(0, 1).map((venue, i) => (
+    <Marker
+      key={i}
+      position={venue.geometry}
+      icon={VenueLocationIcon(venue.image)}
+    >
+      <MarkerPopup data={venue} />
+    </Marker>
+  ));
+
+  return <>{markers}</>;
+};

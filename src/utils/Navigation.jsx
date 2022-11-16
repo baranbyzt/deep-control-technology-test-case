@@ -9,7 +9,7 @@ const Navigation = () => {
     <Router>
       <Routes>
         <Route path="/" element={<Authentication />} />
-        <Route path="/*" element={<ErrorPage />} />
+        <Route path="/*" element={<NotFound />} />
         <Route path="/map" element={<MapView />} />
       </Routes>
     </Router>
@@ -18,7 +18,7 @@ const Navigation = () => {
 
 export default Navigation;
 
-let ErrorPage = () => {
+let NotFound = () => {
   let navigate = useNavigate();
   React.useEffect(() => {
     navigate("/");
